@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
+import './Header.css'
 
 const Header = () => {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar crispy navbar-expand-lg">
                 <Container>
-             <Link className="navbar-brand" to="/">Koinonia Studios</Link>
+             <Link className="navbar-brand Logo" to="/">Koinonia Studios</Link>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span className="navbar-toggler-icon"></span>
               </button>
@@ -15,13 +16,13 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
            <ul className="navbar-nav ml-auto">
            <li className="nav-item active">
-              <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+              <Link className="nav-link navbarColor" to="/">Home <span className="sr-only">(current)</span></Link>
            </li>
            <li className="nav-item active">
-               <Link className="nav-link" to="/Bag"><i className='fas fa-shopping-cart'></i>Bag</Link>
+               <Link className="nav-link navbarColor" to="/Bag"><i className='fas fa-shopping-cart'></i>Bag</Link>
            </li>
            <li className="nav-item active">
-           <Link className="nav-link" to="/Login"><i className='fas fa-user'></i>Login</Link>
+           <Link className="nav-link navbarColor" to="/Login"><i className='fas fa-user'></i>Login</Link>
           </li>
           </ul>
     <form className="form-inline my-2 my-lg-0">

@@ -3,18 +3,18 @@ import bcrypt from 'bcryptjs'
 const users = [
     {
         name: 'Admin User',
-        email: 'admin@SianMcGill.com',
+        email: 'admin@Koinonia.com',
         password: bcrypt.hashSync('123456', 10),
         isAdmin: true
     },
     {
-        name: 'Sian McGill',
-        email: 'sian@SianMcGill.com',
+        name: 'Jo Frenkel',
+        email: 'Jo@Koinonia.com',
         password: bcrypt.hashSync('123456', 10),
     },
     {
-        name: 'John Doe',
-        email: 'JD@SianMcGill.com',
+        name: 'Vicky Hawley',
+        email: 'Vix@Koinonia.com',
         password: bcrypt.hashSync('123456', 10),
     },
 ]

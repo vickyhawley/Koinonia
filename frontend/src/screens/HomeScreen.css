@@ -1,0 +1,25 @@
+.mainTitle {
+
+   color: black;
+   font-family: verdana;
+   font-weight: 100;
+   font-size: 2em;
+   margin-top: 5%;
+   margin-bottom: 2%;
+
+}
+
+.MainCardStyle {
+
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.eachCard {
+    width: 25rem;
+    margin-right: 2%;
+}
+
+.imageStyle {
+    height: 25rem;
+}
