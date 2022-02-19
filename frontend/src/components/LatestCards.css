@@ -1,0 +1,26 @@
+.MainCardStyle {
+
+    margin-top: -2%;
+    margin-left: 2%;
+    height: 30rem;
+}
+
+.eachCard {
+    width: 25rem;
+    margin-right: 2%;
+}
+
+.imageStyle {
+    height: 25rem;
+}
+
+.buttonColor {
+    color:black;
+    background-color: white;
+}
+
+.buttonColor:hover {
+
+    color: white;
+    background-color: #CE003F;
+}

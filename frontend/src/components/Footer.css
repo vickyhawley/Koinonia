@@ -1,0 +1,25 @@
+.footerStyle {
+
+height: 15rem;
+margin-top: 2%;
+background-color: #EAE4E5;
+color: #3B3A3A;
+}
+
+.TextStyle {
+    color: #3B3A3A;
+}
+
+.footerLinks {
+ color: #3B3A3A;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 2em;
+}
+.linkColor {
+    color: #3B3A3A;
+    font-weight: 400;
+    font-size: 1.3em;
+}

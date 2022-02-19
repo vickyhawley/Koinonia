@@ -9,7 +9,7 @@ const Carous = () => {
   <Carousel.Item className='imageStyle'>
     <img
       className="d-block w-100"
-      src="./images/bluecoasters.png"
+      src="./images/blueredwaves.png"
       alt="First slide"
     />
     <Carousel.Caption>

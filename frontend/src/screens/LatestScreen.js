@@ -17,12 +17,15 @@ const LatestScreen = () => {
         fetchProducts()
     }, [])
 return (
-<Row className='LatestStyle'>
+    <>
+    <h1>Latest Paintings</h1>
+           <Row className='LatestStyle'>
              {products.map(product => 
                 <Col sm={12} md={6} lg={4}>
                 <Product product={product}/>
                 </Col>)}
             </Row>
+            </>
 )
 
 }

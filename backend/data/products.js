@@ -35,6 +35,42 @@ const products = [
         brand: 'Jo Frenkel',
         category: 'Wales'
     },
+    {
+        name: 'Purple Feathers Abstract',
+        image: '/images/purplefeathers.png',
+        description: 'Bright landscape painting of Caswell',
+        price: 250,
+        countInStock: 1,
+        brand: 'Jo Frenkel',
+        category: 'Wales'
+    },
+    {
+        name: 'Rainbow Boxes',
+        image: '/images/rainbowboxes.png',
+        description: 'Bright landscape painting of Caswell',
+        price: 250,
+        countInStock: 1,
+        brand: 'Jo Frenkel',
+        category: 'Wales'
+    },
+    {
+        name: 'Red and Blue Waves',
+        image: '/images/blueredwaves.png',
+        description: 'Bright landscape painting of Caswell',
+        price: 250,
+        countInStock: 1,
+        brand: 'Jo Frenkel',
+        category: 'Wales'
+    },
+    {
+        name: 'Red and Blue Waves',
+        image: '/images/aboutme.png',
+        description: 'Bright landscape painting of Caswell',
+        price: 250,
+        countInStock: 1,
+        brand: 'Jo Frenkel',
+        category: 'Wales'
+    },
 ]
 
 export default products
